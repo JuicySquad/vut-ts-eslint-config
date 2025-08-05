@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Eslint config for projects",
   "license": "ISC",
-  "author": "r.babich@nir.center",
+  "author": "Babich Roman <r.nikiy@yandex.ru>",
   "type": "module",
   "exports": {
     ".": {
