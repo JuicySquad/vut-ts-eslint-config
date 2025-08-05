@@ -1,0 +1,29 @@
+{
+  "name": "@nir/eslint-config",
+  "version": "0.1.0",
+  "description": "Eslint config for projects",
+  "license": "ISC",
+  "author": "r.babich@nir.center",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@stylistic/eslint-plugin": "^5.2.2",
+    "@vue/eslint-config-typescript": "^14.6.0",
+    "eslint-plugin-perfectionist": "^4.15.0",
+    "eslint-plugin-vue": "^10.4.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 9"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}

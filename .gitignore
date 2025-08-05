@@ -1,0 +1,9 @@
+logs
+*.log
+npm-debug.log*
+node_modules
+dist
+*.local
+
+# Пока нет CI/CD билдить и расшаривать для импорта
+!dist
